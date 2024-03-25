@@ -1,16 +1,13 @@
-## Configurando o Enviroment
-
-Abra o program.cs e altere (Se necessário) as seguintes variavéis:
+## Setting up the Environment
+Open the program.cs file and modify (if necessary) the following variables:
 
 - connectionString
-- Connection Factory.
+- factory.
 
-## Como Rodar?
-
-Você pode iniciar o worker com:
+## How to Run?
+You can start the worker with:
 
 ```bash
 dotnet run
 ```
-
-Caso queira alterar o ChunkSize, abra a program.cs e altere a variável `ChunkSize`.
+If you want to change the ChunkSize, open the program.cs file and modify the variable `ChunkSize`.
